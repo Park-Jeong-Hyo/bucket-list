@@ -4,6 +4,7 @@ import { Dimensions, Text } from 'react-native';
 import styled from 'styled-components/native';
 import images from '../images';
 import Input from './Input';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Container = styled.View`
     display:flex;
